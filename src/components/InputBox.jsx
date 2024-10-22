@@ -19,8 +19,10 @@ function InputBox(
   const amountInputId = useId()
 
   return (
+   
 
-      <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
+          <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
+
 
           {/* Label and Input  */}
           <div className="w-1/2">
@@ -37,6 +39,8 @@ function InputBox(
                   type="number"
                   placeholder="Amount"
                   disabled={amountDisable}
+                  min={0}
+                  max={1000000}
                   value={amount}
                   onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
               />
@@ -74,6 +78,8 @@ function InputBox(
 
 
       </div>
+
+    
   );
 }
 
