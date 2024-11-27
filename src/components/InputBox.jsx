@@ -28,7 +28,7 @@ function InputBox(
           <div className="w-1/2">
 
               {/* label */}
-              <label htmlFor={amountInputId} className=" text-xl text-grey-400 font-bold mb-2 inline-block">
+              <label htmlFor={amountInputId} className="md:text-xl text-grey-400 font-bold mb-2 text-sm inline-block">
                   {label}
               </label>
 
@@ -50,7 +50,7 @@ function InputBox(
           <div className="w-1/2 flex flex-wrap justify-end text-right">
 
               {/* Currency Type Label   */}
-              <p className="text-grey-400 font-bold mb-2 w-full text-xl">Currency Type</p>
+              <p className="text-grey-400 font-bold text-sm mb-2 w-full md:text-xl">Currency Type</p>
 
               {/* Select Option */}
               <select
