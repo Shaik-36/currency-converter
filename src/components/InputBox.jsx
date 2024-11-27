@@ -21,14 +21,14 @@ function InputBox(
   return (
    
 
-          <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
+          <div className={`bg-white p-3 rounded-lg text-xl flex ${className}`}>
 
 
           {/* Label and Input  */}
           <div className="w-1/2">
 
               {/* label */}
-              <label htmlFor={amountInputId} className="text-black/40 mb-2 inline-block">
+              <label htmlFor={amountInputId} className=" text-xl text-grey-400 font-bold mb-2 inline-block">
                   {label}
               </label>
 
@@ -50,7 +50,7 @@ function InputBox(
           <div className="w-1/2 flex flex-wrap justify-end text-right">
 
               {/* Currency Type Label   */}
-              <p className="text-black/40 mb-2 w-full">Currency Type</p>
+              <p className="text-grey-400 font-bold mb-2 w-full text-xl">Currency Type</p>
 
               {/* Select Option */}
               <select

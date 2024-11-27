@@ -69,7 +69,7 @@ function App() {
                         }}
                     >
                         {/* From Input Box */}
-                        <div className="w-full mb-1">
+                        <div className="w-full mb-1 text-zinc-600">
 
                             <InputBox
 
@@ -119,12 +119,12 @@ function App() {
                     </form>
 
                     {/* Currency Exchange Display */}
-                    <div className="relative w-full h-4 mt-6 mb-4" >
+                    {/* <div className="relative w-full h-4 mt-6 mb-4" >
                         <h4 
                          className=' text-center border-2 border-white rounded-md bg-green-600 text-white ml-16 mr-16 py-0.5 mb-4'
                         >
                         {amount.toFixed(2)} {from.toUpperCase()} = {convertedAmount.toFixed(2)} {to.toUpperCase()}</h4>
-                    </div>
+                    </div> */}
 
 
 
